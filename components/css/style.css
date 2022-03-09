@@ -1,8 +1,52 @@
 .banner{
-    background-image: url("https://as1.ftcdn.net/v2/jpg/04/81/87/48/1000_F_481874888_Bhw94ptsQt4LYw3PEmyPE5lugM5YdhrU.jpg"); /* The image used */
+    background-image:linear-gradient(0deg, rgba(18, 9, 31, 0.507), rgba(18, 9, 31, 0.527)), url("https://as1.ftcdn.net/v2/jpg/04/81/87/48/1000_F_481874888_Bhw94ptsQt4LYw3PEmyPE5lugM5YdhrU.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+/* offer card */
+
+.offer-card{
+    height: 300px;
+}
+
+/* service section */
+.service-section{
+margin-top: -150px;
+z-index: 0;
+
+    background-image:linear-gradient(0deg, rgba(35, 119, 167, 0.616), rgba(35, 119, 167, 0.637)), url("https://as1.ftcdn.net/v2/jpg/02/72/26/56/1000_F_272265611_C6DzE6VYnNBMQZK3kVsLXyb7THfzhnjk.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+   border: 3px solid white;
+
+}
+ .service{
+     margin-top: -380px;
+     z-index: 1;
+ }
+
+ /* .cruise-card{
+     margin-top: -15px;
+     height: 330px;
+     width: 350px;
+ } */
+
+ .service-card{
+ }
+
+ .service-card-body{
+     background-color: deepskyblue;
+     color: white;
+ }
