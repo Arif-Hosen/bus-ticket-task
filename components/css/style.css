@@ -1,0 +1,8 @@
+.banner{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/81/87/48/1000_F_481874888_Bhw94ptsQt4LYw3PEmyPE5lugM5YdhrU.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
