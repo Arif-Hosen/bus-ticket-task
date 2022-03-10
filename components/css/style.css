@@ -50,3 +50,22 @@ z-index: 0;
      background-color: deepskyblue;
      color: white;
  }
+
+ /* payment section */
+ .payment-section{
+     background-color: white;
+ }
+
+ /* footer section */
+ footer{
+     background-color: royalblue;
+     color: white;
+     font-weight: 600;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ footer a{
+     color: white;
+     text-decoration: none;
+     /* font-weight: 700; */
+ }
