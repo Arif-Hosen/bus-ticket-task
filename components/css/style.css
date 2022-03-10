@@ -108,3 +108,46 @@ z-index: 0;
      margin-top: 5px;
      cursor: pointer;
  }
+
+ /* nav login */
+.navigation-container{
+    position: relative;
+}
+
+.login-container{
+    margin-left: 58%;
+}
+ .nav-login{
+     /* position: absolute; */
+     margin-left: 5px;
+     text-decoration: none;
+background-color: white;
+width: 110px;
+padding:0 5px;
+border-radius: 5px;
+color:black;
+ }
+ /* navbar */
+ .navbar-color{
+     background-color: darkslateblue;
+ }
+
+ .nav-link-color{
+     color:white;
+ }
+
+ /* media queries */
+ @media screen and (max-width: 990px) {
+    .login-container {
+       margin-left: 40%;
+    }
+  }
+ @media screen and (max-width: 800px) {
+    .service {
+       margin-top: -300px;
+    }
+    .footer-gap{
+        margin-top: 30px;
+    }
+  }
+
